@@ -230,6 +230,39 @@ The system demonstrates how Retrieval-Augmented Generation can be applied to sup
 
 API credentials are managed through environment variables.
 
+
+## Sample Questions & Answers
+
+### Q1. Which supplier had the highest Q1 spend?
+**Answer:** Shenzhen Rui Electronics had the highest Q1 spend at ₹21.9 crore.
+
+### Q2. What was the total procurement spend in Q1 FY 2025-26?
+**Answer:** The total procurement spend was ₹81.6 crore.
+
+### Q3. Which supplier had the lowest on-time delivery?
+**Answer:** Shenzhen Rui Electronics had the lowest on-time delivery at 79.5%.
+
+### Q4. Which supplier had the best on-time delivery?
+**Answer:** Sunrise Connectors had the best on-time delivery at 98.2%.
+
+### Q5. What was the main structural supply-chain risk?
+**Answer:** The main structural risk was the absence of a second source for microcontrollers.
+
+### Q6. How many line-stoppage events occurred during the quarter?
+**Answer:** Seven line-stoppage events occurred across the two plants.
+
+### Q7. How much production downtime was caused by the line-stoppage events?
+**Answer:** The line-stoppage events caused 41 hours of production downtime.
+
+### Q8. Which supplier was responsible for four of the seven line-stoppage events?
+**Answer:** Shenzhen Rui Electronics was responsible for four of the seven events due to delayed microcontroller shipments.
+
+### Q9. What was the inventory value at the end of Q1?
+**Answer:** Inventory stood at ₹68.4 crore as of 30 June 2025.
+
+### Q10. What technology stack is used in this RAG application?
+**Answer:** The application uses Sentence Transformers for embeddings, ChromaDB for vector storage, and Llama 3.3 70B through Groq for answer generation.
+
 The following files are intentionally excluded from Git tracking:
 
 .env
