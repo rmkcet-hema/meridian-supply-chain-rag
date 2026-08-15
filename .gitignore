@@ -1,0 +1,21 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# ChromaDB
+chroma_db/
+
+# Hugging Face cache
+.cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
