@@ -819,8 +819,12 @@ def load_resources():
         name="supply_chain"
     )
 
+    groq_api_key = st.secrets.get(
+        "GROQ_API_KEY",
+        os.getenv("GROQ_API_KEY")
+    )
     groq_client = Groq(
-        api_key=os.getenv("GROQ_API_KEY")
+        api_key=groq_api_key
     )
 
     return (
