@@ -42,9 +42,7 @@ st.markdown("""
    ========================================================== */
 
 .stApp {
-
     background:
-
         radial-gradient(
             circle at 8% 8%,
             rgba(205, 180, 255, 0.70) 0px,
@@ -81,7 +79,6 @@ st.markdown("""
    ========================================================== */
 
 .stApp::before {
-
     content: "🌸";
 
     position: fixed;
@@ -102,7 +99,6 @@ st.markdown("""
 
 
 .stApp::after {
-
     content: "🌷";
 
     position: fixed;
@@ -127,7 +123,6 @@ st.markdown("""
    ========================================================== */
 
 .block-container {
-
     max-width: 1420px;
 
     padding-top: 2rem;
@@ -145,9 +140,7 @@ st.markdown("""
    ========================================================== */
 
 section[data-testid="stSidebar"] {
-
     background:
-
         radial-gradient(
             circle at 20% 10%,
             rgba(255,255,255,0.75),
@@ -166,7 +159,6 @@ section[data-testid="stSidebar"] {
 
 
 section[data-testid="stSidebar"] .block-container {
-
     padding-top: 2rem;
 }
 
@@ -176,7 +168,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .brand-title {
-
     color: #4B3970;
 
     font-size: 27px;
@@ -188,7 +179,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .brand-subtitle {
-
     color: #817293;
 
     font-size: 13px;
@@ -202,7 +192,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .hero-title {
-
     font-size: 43px;
 
     font-weight: 850;
@@ -216,7 +205,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .hero-subtitle {
-
     color: #80738F;
 
     font-size: 15px;
@@ -226,7 +214,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .hero-icon {
-
     width: 66px;
 
     height: 66px;
@@ -242,7 +229,6 @@ section[data-testid="stSidebar"] .block-container {
     font-size: 31px;
 
     background:
-
         linear-gradient(
             135deg,
             #C5A7FF,
@@ -250,7 +236,6 @@ section[data-testid="stSidebar"] .block-container {
         );
 
     box-shadow:
-
         0 13px 30px
         rgba(118, 87, 200, 0.27);
 
@@ -264,7 +249,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .section-title {
-
     font-size: 21px;
 
     font-weight: 800;
@@ -282,7 +266,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .metric-card {
-
     position: relative;
 
     background:
@@ -312,7 +295,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .metric-card:hover {
-
     transform:
         translateY(-3px);
 
@@ -323,7 +305,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .metric-card::after {
-
     content: "✿";
 
     position: absolute;
@@ -340,7 +321,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .metric-number {
-
     font-size: 29px;
 
     font-weight: 850;
@@ -350,7 +330,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .metric-label {
-
     color: #887B96;
 
     font-size: 13px;
@@ -366,7 +345,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .status-ready {
-
     display: inline-block;
 
     padding: 8px 14px;
@@ -394,7 +372,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .question-box {
-
     background:
         rgba(255,255,255,0.70);
 
@@ -415,7 +392,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .stTextInput input {
-
     background: #FFFFFF !important;
 
     border: 1px solid #D6C8EA !important;
@@ -435,7 +411,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .stTextInput input:focus {
-
     border-color:
         #9876E5 !important;
 
@@ -451,7 +426,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .stButton > button {
-
     min-height: 47px;
 
     border-radius: 14px;
@@ -459,7 +433,6 @@ section[data-testid="stSidebar"] .block-container {
     border: none;
 
     background:
-
         linear-gradient(
             135deg,
             #9C7AE9,
@@ -481,7 +454,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .stButton > button:hover {
-
     transform:
         translateY(-2px);
 
@@ -496,11 +468,9 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .answer-card {
-
     position: relative;
 
     background:
-
         linear-gradient(
             135deg,
             rgba(255,255,255,0.97),
@@ -528,7 +498,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .answer-card::after {
-
     content: "🌸";
 
     position: absolute;
@@ -543,7 +512,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .answer-label {
-
     color: #8060CF;
 
     font-size: 12px;
@@ -559,7 +527,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .answer-text {
-
     color: #332C41;
 
     font-size: 19px;
@@ -571,7 +538,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .confidence-high {
-
     display: inline-block;
 
     margin-top: 17px;
@@ -597,7 +563,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .source-card {
-
     background:
         rgba(255,255,255,0.90);
 
@@ -619,14 +584,12 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .source-card:hover {
-
     transform:
         translateX(3px);
 }
 
 
 .source-name {
-
     color: #493B60;
 
     font-weight: 750;
@@ -636,7 +599,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .source-meta {
-
     color: #91869F;
 
     font-size: 12px;
@@ -650,7 +612,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 [data-testid="stExpander"] {
-
     background:
         rgba(255,255,255,0.72);
 
@@ -665,7 +626,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 [data-testid="stFileUploader"] {
-
     background:
         rgba(255,255,255,0.62);
 
@@ -682,9 +642,7 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .stack-box {
-
     background:
-
         linear-gradient(
             135deg,
             rgba(255,255,255,0.82),
@@ -714,11 +672,9 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 .empty-state {
-
     position: relative;
 
     background:
-
         linear-gradient(
             135deg,
             rgba(255,255,255,0.90),
@@ -742,7 +698,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .empty-state::before {
-
     content: "🌷";
 
     position: absolute;
@@ -757,7 +712,6 @@ section[data-testid="stSidebar"] .block-container {
 
 
 .empty-state::after {
-
     content: "🌸";
 
     position: absolute;
@@ -776,7 +730,6 @@ section[data-testid="stSidebar"] .block-container {
    ========================================================== */
 
 hr {
-
     border-color: #D8CBEA;
 }
 
@@ -786,7 +739,6 @@ hr {
    ========================================================== */
 
 .footer {
-
     text-align: center;
 
     color: #9589A5;
@@ -807,6 +759,8 @@ hr {
 @st.cache_resource
 def load_resources():
 
+    print("Loading embedding model...")
+
     embedding_model = SentenceTransformer(
         "all-MiniLM-L6-v2"
     )
@@ -819,10 +773,29 @@ def load_resources():
         name="supply_chain"
     )
 
-    groq_api_key = st.secrets.get(
-        "GROQ_API_KEY",
-        os.getenv("GROQ_API_KEY")
-    )
+    # --------------------------------------------------------
+    # GROQ API KEY
+    # Local  -> .env
+    # Cloud  -> Streamlit Secrets
+    # --------------------------------------------------------
+
+    groq_api_key = os.getenv("GROQ_API_KEY")
+
+    if not groq_api_key:
+
+        try:
+            groq_api_key = st.secrets["GROQ_API_KEY"]
+
+        except Exception:
+
+            st.error(
+                "GROQ_API_KEY not found. "
+                "Please configure your .env file locally "
+                "or Streamlit Secrets when deployed."
+            )
+
+            st.stop()
+
     groq_client = Groq(
         api_key=groq_api_key
     )
@@ -842,6 +815,7 @@ embedding_model, collection, groq_client = load_resources()
 # ============================================================
 
 if "history" not in st.session_state:
+
     st.session_state.history = []
 
 
@@ -852,6 +826,7 @@ if "history" not in st.session_state:
 def get_document_count():
 
     if collection.count() == 0:
+
         return 0
 
     data = collection.get(
@@ -860,7 +835,10 @@ def get_document_count():
 
     files = set()
 
-    for metadata in data.get("metadatas", []):
+    for metadata in data.get(
+        "metadatas",
+        []
+    ):
 
         if metadata and "file" in metadata:
 
@@ -919,17 +897,20 @@ def index_documents(uploaded_files):
             uploaded_file.name
         )
 
-        with open(file_path, "wb") as f:
+        with open(
+            file_path,
+            "wb"
+        ) as f:
 
             f.write(
                 uploaded_file.getbuffer()
             )
 
-
-        reader = PdfReader(file_path)
+        reader = PdfReader(
+            file_path
+        )
 
         all_chunks = []
-
 
         if "Policy" in uploaded_file.name:
 
@@ -939,7 +920,6 @@ def index_documents(uploaded_files):
 
             document_type = "review"
 
-
         for page_number, page in enumerate(
             reader.pages,
             start=1
@@ -948,11 +928,12 @@ def index_documents(uploaded_files):
             text = page.extract_text()
 
             if not text:
+
                 continue
 
-
-            chunks = create_chunks(text)
-
+            chunks = create_chunks(
+                text
+            )
 
             for chunk_number, chunk in enumerate(
                 chunks
@@ -960,7 +941,8 @@ def index_documents(uploaded_files):
 
                 all_chunks.append({
 
-                    "text": chunk,
+                    "text":
+                        chunk,
 
                     "file":
                         uploaded_file.name,
@@ -976,7 +958,6 @@ def index_documents(uploaded_files):
 
                 })
 
-
         if all_chunks:
 
             texts = [
@@ -987,35 +968,24 @@ def index_documents(uploaded_files):
 
             ]
 
-
             vectors = embedding_model.encode(
-
                 texts,
-
                 show_progress_bar=False
-
             )
-
 
             for i, chunk in enumerate(
                 all_chunks
             ):
 
                 raw_id = (
-
                     f"{chunk['file']}_"
                     f"{chunk['page']}_"
                     f"{chunk['chunk_number']}"
-
                 )
 
-
                 chunk_id = hashlib.md5(
-
                     raw_id.encode()
-
                 ).hexdigest()
-
 
                 collection.upsert(
 
@@ -1044,19 +1014,14 @@ def index_documents(uploaded_files):
 
                 )
 
-
             total_chunks += len(
                 all_chunks
             )
 
-
         progress.progress(
-
             (file_index + 1) /
             len(uploaded_files)
-
         )
-
 
     return total_chunks
 
@@ -1114,11 +1079,9 @@ with st.sidebar:
     </div>
     """)
 
-
     st.write("")
 
     st.divider()
-
 
     # KNOWLEDGE BASE
 
@@ -1128,14 +1091,11 @@ with st.sidebar:
     </div>
     """)
 
-
     chunk_count = collection.count()
 
     document_count = get_document_count()
 
-
     col1, col2 = st.columns(2)
-
 
     with col1:
 
@@ -1153,7 +1113,6 @@ with st.sidebar:
         </div>
         """)
 
-
     with col2:
 
         st.html(f"""
@@ -1170,9 +1129,7 @@ with st.sidebar:
         </div>
         """)
 
-
     st.write("")
-
 
     if chunk_count > 0:
 
@@ -1188,9 +1145,7 @@ with st.sidebar:
             "No documents indexed yet."
         )
 
-
     st.divider()
-
 
     # UPLOAD
 
@@ -1199,7 +1154,6 @@ with st.sidebar:
         📤 Add Documents
     </div>
     """)
-
 
     uploaded_files = st.file_uploader(
 
@@ -1212,7 +1166,6 @@ with st.sidebar:
         label_visibility="collapsed"
 
     )
-
 
     if st.button(
         "✨  Index Documents",
@@ -1235,22 +1188,17 @@ with st.sidebar:
                     uploaded_files
                 )
 
-
             st.success(
                 "Documents indexed successfully!"
             )
-
 
             st.info(
                 f"{new_chunks} chunks added."
             )
 
-
             st.rerun()
 
-
     st.divider()
-
 
     # AI STACK
 
@@ -1326,7 +1274,6 @@ st.html("""
 
 col1, col2, col3 = st.columns(3)
 
-
 with col1:
 
     st.html("""
@@ -1342,7 +1289,6 @@ with col1:
 
     </div>
     """)
-
 
 with col2:
 
@@ -1360,7 +1306,6 @@ with col2:
     </div>
     """)
 
-
 with col3:
 
     st.html("""
@@ -1376,7 +1321,6 @@ with col3:
 
     </div>
     """)
-
 
 st.write("")
 
@@ -1436,13 +1380,11 @@ if ask_button:
             "Please upload and index a PDF first."
         )
 
-
     elif not question.strip():
 
         st.warning(
             "Please enter a question."
         )
-
 
     else:
 
@@ -1453,13 +1395,10 @@ if ask_button:
             # QUERY EMBEDDING
 
             query_vector = (
-
                 embedding_model
                 .encode(question)
                 .tolist()
-
             )
-
 
             # VECTOR SEARCH
 
@@ -1473,21 +1412,17 @@ if ask_button:
 
             )
 
-
             documents = results[
                 "documents"
             ][0]
-
 
             metadatas = results[
                 "metadatas"
             ][0]
 
-
             # CONTEXT
 
             context = ""
-
 
             for i in range(
                 len(documents)
@@ -1510,7 +1445,6 @@ Content:
 {documents[i]}
 
 """
-
 
             # PROMPT
 
@@ -1542,11 +1476,9 @@ DOCUMENT CONTEXT:
 
 """
 
-
             # GROQ
 
             response = (
-
                 groq_client
                 .chat
                 .completions
@@ -1579,19 +1511,14 @@ DOCUMENT CONTEXT:
                     temperature=0
 
                 )
-
             )
 
-
             answer = (
-
                 response
                 .choices[0]
                 .message
                 .content
-
             )
-
 
         # SAVE HISTORY
 
@@ -1620,13 +1547,11 @@ if st.session_state.history:
 
     st.divider()
 
-
     st.html("""
     <div class="section-title">
         💡 AI Insights
     </div>
     """)
-
 
     for item_number, item in enumerate(
 
@@ -1642,20 +1567,15 @@ if st.session_state.history:
             item["question"]
         )
 
-
         safe_answer = (
-
             html.escape(
                 item["answer"]
             )
-
             .replace(
                 "\n",
                 "<br>"
             )
-
         )
-
 
         # QUESTION
 
@@ -1682,7 +1602,6 @@ if st.session_state.history:
 
         """)
 
-
         # ANSWER
 
         st.html(f"""
@@ -1705,7 +1624,6 @@ if st.session_state.history:
 
         """)
 
-
         # SOURCES
 
         st.html("""
@@ -1714,9 +1632,7 @@ if st.session_state.history:
         </div>
         """)
 
-
         grouped_sources = {}
-
 
         for metadata in item["sources"]:
 
@@ -1724,18 +1640,15 @@ if st.session_state.history:
 
             page = metadata["page"]
 
-
             if filename not in grouped_sources:
 
                 grouped_sources[
                     filename
                 ] = set()
 
-
             grouped_sources[
                 filename
             ].add(page)
-
 
         for filename, pages in (
             grouped_sources.items()
@@ -1745,7 +1658,6 @@ if st.session_state.history:
                 str(filename)
             )
 
-
             page_list = ", ".join(
 
                 str(page)
@@ -1753,7 +1665,6 @@ if st.session_state.history:
                 for page in sorted(pages)
 
             )
-
 
             st.html(f"""
 
@@ -1796,7 +1707,6 @@ if st.session_state.history:
 
             """)
 
-
         # DETAILS
 
         with st.expander(
@@ -1804,7 +1714,6 @@ if st.session_state.history:
         ):
 
             col1, col2 = st.columns(2)
-
 
             with col1:
 
@@ -1817,7 +1726,6 @@ if st.session_state.history:
                     "**Vector DB:** ChromaDB"
                 )
 
-
             with col2:
 
                 st.write(
@@ -1829,7 +1737,6 @@ if st.session_state.history:
                     "**LLM:** "
                     "Llama 3.3 70B via Groq"
                 )
-
 
         st.divider()
 
